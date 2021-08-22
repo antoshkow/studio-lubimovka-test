@@ -1,0 +1,35 @@
+.app {
+  font-family:  "Inter", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.app__result {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+  grid-template-rows: 300px;
+  margin: auto;
+}
+
+.app__books {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 240px);
+  gap: 30px;
+  max-width: 800px;
+  padding-top: 65px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.app__sidebar {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0;
+  padding-top: 65px;
+  max-width: 220px;
+}
